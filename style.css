@@ -30,13 +30,18 @@
     color: #1bb4fe; /* Cor do texto */
     font-size: 24px; /* Tamanho da fonte */
     text-align: center;
-    z-index: 2; /* O texto está acima do fundo, mas abaixo da sobreposição */
+    z-index: 4; /* O texto está acima do fundo, mas abaixo da sobreposição */
     padding: 20px;
     border-radius: 10px; /* Arredondando as bordas, opcional */
     font-size: 40px;
     line-height: 70px;
+    display: none;
   }
   
+.texto-secreto a{
+    color: #1bb4fe;
+}
+
   .sobreposicao {
     position: absolute;
     top: 0;
