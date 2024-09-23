@@ -22,7 +22,7 @@
     z-index: 1; /* Coloca a imagem de fundo abaixo do texto */
   }
   
-  .texto-secreto {
+  #texto-secreto {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,12 +30,12 @@
     color: #1bb4fe; /* Cor do texto */
     font-size: 24px; /* Tamanho da fonte */
     text-align: center;
-    z-index: 4; /* O texto está acima do fundo, mas abaixo da sobreposição */
+    z-index: 1; /* O texto está acima do fundo, mas abaixo da sobreposição */
     padding: 20px;
     border-radius: 10px; /* Arredondando as bordas, opcional */
     font-size: 40px;
     line-height: 70px;
-    display: none;
+    display: block;
   }
   
 .texto-secreto a{
@@ -52,3 +52,19 @@
     z-index: 3; /* Coloca a imagem transparente acima de tudo */
   }
   
+  button{
+    background-color: #1bb4fe;
+    color: white;
+    font-size: 20px;
+    padding:  10px;
+    border: none;
+    border-radius: 10px;
+    z-index: 4;
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente */
+    text-align: center;
+  }
