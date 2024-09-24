@@ -73,6 +73,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
+      display: none;
      
   }
 
@@ -80,11 +81,4 @@
       display: none;
   }
 
-  .botao{
-    display: none;
-  }
 
-  .botao:hover{
-    display: block;
-  }
-  
